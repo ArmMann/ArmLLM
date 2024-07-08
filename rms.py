@@ -18,12 +18,12 @@ normal = RMSNorm(512)
 out = normal(x)
 print(x)
 print(out)
-print(11%3)
+
 
 
 #swish
-# swish = x* sigmoid(x)
-# swiglu = swish(xW +b) pointwise* (xV + C)
+#swish = x* sigmoid(x)
+#swiglu = swish(xW +b) pointwise* (xV + C)
 
 #correct my swiglu implenentation
 class FeedForward(nn.Module):
@@ -45,3 +45,4 @@ class FeedForward(nn.Module):
         out = self.w2(swiglu)
         
         return out
+

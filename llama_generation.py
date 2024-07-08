@@ -336,7 +336,9 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = Transformer(model_args).to(device)
 
-    
+
+    #Inspect model dimensions train vs inference
+    """
     # Inspect model dimensions
     print("Model dimensions:")
     for name, param in model.named_parameters():
@@ -351,12 +353,13 @@ def main():
     for name, param in checkpoint.items():
         print(f"{name}: {param.size()}")
 
-
+    """
     # Load the trained model weights
     model.load_state_dict(torch.load("llama_wikitext_trained.pth", map_location=device))
 
+
     # Generate text
-    prompt = "In a world where"
+    prompt = "The first scientific description"  
     print(f"Prompt: {prompt}\n")
     print("Greedy Decoding")
     generated_text = generate_text_greedy(model, tokenizer, prompt, max_length=50)
