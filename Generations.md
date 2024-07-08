@@ -1,4 +1,4 @@
-Prompt: NBA stars tend to
+## Prompt: NBA stars tend to
 
 Greedy Decoding
 Generated text: NBA stars tend to be a major factor in the game's development. 
@@ -16,7 +16,7 @@ Generated text: NBA stars tend to experiment using geometric styles, so may be u
 
 
 
-Prompt: In a world where
+## Prompt: In a world where
 
 Greedy Decoding
 Generated text: In a world where the world is the world of the world, and the world is the world's most popular world. The world is the world's largest, and the world's largest, and the world's largest. The world's largest,
@@ -35,7 +35,7 @@ Generated text: In a world where Hippi is portrayed as a " terrorist or Eternall
 
 
 
-Prompt: Today we live in
+## Prompt: Today we live in
 
 Greedy Decoding
 Generated text: Today we live in the city. " 
@@ -53,7 +53,7 @@ ____________________________________________________________
 Top-p / Nucleus Decoding
 Generated text: Today we live in <unk> to attract consumers from multiple applications. They have yet to win any known prizes, and often inside the museums and churches with no rent. You can see other children on a family pension of Durna, thus adding that girls to anybody
 
-Prompt: The first scientific description
+## Prompt: The first scientific description
 
 Greedy Decoding
 Generated text: The first scientific description of the species was first published in 1858 by the American botanist John <unk>, who published his own book, The Origin of Species. The species was first described by the American botanist John <unk> in 1821.
